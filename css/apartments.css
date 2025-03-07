@@ -1,0 +1,8 @@
+.apartments__title {
+  margin-bottom: 88px;
+}
+
+.apartments__cards {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}/*# sourceMappingURL=apartments.css.map */
