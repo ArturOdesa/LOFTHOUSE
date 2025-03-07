@@ -20,7 +20,7 @@
                     <ul class="nav__list">
                         <li><a href="#">Про комплекс</a></li>
                         <li><a href="#">Район</a></li>
-                        <li><a href="#">Каталог квартир</a></li>
+                        <li><a href="#apartments">Каталог квартир</a></li>
                         <li><a href="#">Іпотека</a></li>
                         <li><a href="#">Контакти</a></li>
                     </ul>
@@ -81,55 +81,52 @@
             </div>
         </section>
         <!-- .apartments START -->
-        <section class="apartments">
+        <section class="apartments" id="apartments">
             <div class="container">
                 <div class="apartments__title">
                     <h2 class="title-2">Наші квартири</h2>
                 </div>
                 <div class="apartments__cards">
                     <a href="#" class="card">
-                        <img src="./images/cards/01.png" alt="Loft Олімп">
+                        <img class="card__img" src="./images/cards/01.png" alt="Loft Олімп">
                         <h3 class="card__title">Пентхаус “Loft Олімп”</h3>
                     </a>
                     <a href="#" class="card">
-                        <img src="./images/cards/02.png" alt="Nice Loft">
+                        <img class="card__img" src="./images/cards/02.jpg" alt="Nice Loft">
                         <h3 class="card__title">Апартаменти “Nice Loft”</h3>
                     </a>
                     <a href="#" class="card">
-                        <img src="./images/cards/03.png" alt="Loft Studio">
+                        <img class="card__img" src="./images/cards/03.jpg" alt="Loft Studio">
                         <h3 class="card__title">Апартаменти “Loft Studio”</h3>
                     </a>
                     <a href="#" class="card">
-                        <img src="./images/cards/04.png" alt="Квартира “Престиж”">
+                        <img class="card__img" src="./images/cards/04.jpg" alt="Квартира “Престиж”">
                         <h3 class="card__title">Loft квартира “Престиж”</h3>
                     </a>
                 </div>
             </div>
         </section>
-    </main>
-    <!-- <header class="header"></header> -->
-        <!-- <div class="header__top">
+        <!-- .cta START -->
+         <section class="cta">
             <div class="container">
-                 <div class="header__top-row">
-                    <a href="#">
-                        <img src="./images/header/header__logo.svg" alt="LOFTHOUSE Logo">
-                    </a>
-                    <div class="header__nav">
-                        <nav class="nav">
-                            <ul class="nav__list">
-                                <li><a href="#">Про комплекс</a></li>
-                                <li><a href="#">Район</a></li>
-                                <li><a href="#">Каталог квартир</a></li>
-                                <li><a href="#">Іпотека</a></li>
-                                <li><a href="#">Контакти</a></li>
-                            </ul>
-                        </nav>
+                <div class="cta__title">
+                    <h2 class="title-2">Бажаєте подивитись?</h2>
+                </div>
+                <div class="cta__wrapper">
+                    <div class="cta__text">
+                        <p>ЖК LoftHouse - це проект бізнес-класу, розташований в центрі міста, на вулиці Межигірська, 78. Комплекс пропонує своїм мешканцям квартири площею від 40 до 170 кв. м. У будівлі буде три секції, в яких розміститься лише 56 квартир.</p>
                     </div>
-                 </div>
-            </div>
-        </div> -->
-    <!-- </header> -->
-    
+                    <form method="get" class="cta__form form">
+                        <input type="text" class="form__input" placeholder="Ваше ім’я">
+                        <input type="tel" class="form__input" placeholder="Ваш телефон">
+                        <p class="form__privacy">*Ми нікому не передаємо ваші дані. <br>
+                            І не зберігаємо ваш номер у базу.</p>
+                        <button class="form__btn" type="submit">Подивитись район</button>
+                    </form>
+                </div>
+            </div>    
+         </section>
+    </main>
 </body>
 </html>
 
