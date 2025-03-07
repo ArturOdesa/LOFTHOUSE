@@ -108,3 +108,8 @@ label {
 legend {
     display: block;
 }
+
+/* Page scroll */
+html {
+    scroll-behavior: smooth;
+}
