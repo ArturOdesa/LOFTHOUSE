@@ -1,0 +1,12 @@
+.nav {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    border: solid purple;
+    
+    .nav__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+}

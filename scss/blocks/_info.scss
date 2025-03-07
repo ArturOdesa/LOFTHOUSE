@@ -1,0 +1,40 @@
+.header__address {
+    border: solid coral;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;   
+    column-gap: 106px;
+    font-size: 18px;
+    color: $white;
+
+    .info--map {
+        position: relative;
+        padding-left: 43px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 21px;
+            height: 21px;
+            left: 0;
+            background-image: url('./../images/header/map.svg');
+            background-repeat: no-repeat;
+        }
+    }
+
+    .info--tel { 
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 21px;
+            height: 21px;
+            left: 0;
+            background-image: url('./../images/header/phone.svg');
+            background-repeat: no-repeat;
+        }
+    }
+
+}
