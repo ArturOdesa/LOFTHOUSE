@@ -261,4 +261,33 @@ a:hover {
   left: 0;
   background-image: url("./../images/header/phone.svg");
   background-repeat: no-repeat;
+}
+
+main {
+  border: solid green;
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits__row {
+  display: flex;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+
+.benefits__item {
+  text-align: center;
+}
+
+.benfeits__item-img {
+  margin-bottom: 53px;
+}
+
+.benefits__item-text {
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=main.css.map */
