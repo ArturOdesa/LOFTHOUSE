@@ -462,4 +462,29 @@ main {
 
 .map-section__map {
   min-height: 358px;
+}
+
+.question {
+  border: solid yellow;
+  padding-bottom: 180px;
+}
+
+.question__title {
+  margin-bottom: 38px;
+}
+
+.question__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+
+.question__form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  flex-grow: 1;
 }/*# sourceMappingURL=main.css.map */

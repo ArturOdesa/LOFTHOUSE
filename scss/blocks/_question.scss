@@ -1,0 +1,26 @@
+.question {
+    border: solid yellow;
+    padding-bottom: 180px;
+}
+.question__title {
+    margin-bottom: 38px;
+}
+
+.question__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+.form {
+}
+.question__form {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    flex-grow: 1;
+    
+}
