@@ -1,0 +1,24 @@
+.video-section {
+    border: solid salmon;
+    padding-bottom: 180px;
+
+    
+}
+
+.video-sesction__content {
+    text-align: center;
+    position: relative;
+    border: solid blue;
+}
+
+.video-sesction__content-img {
+    position: relative;
+    opacity: 0.2;
+}
+.video-sesction__content-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
