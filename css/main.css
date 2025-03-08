@@ -169,17 +169,12 @@ a:hover {
 }
 
 .header {
-  border: solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 30px 0 74px;
   min-height: 840px;
   background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url("./../images/header/header-bg.jpg") no-repeat;
-}
-
-.container {
-  border: solid aqua;
 }
 
 .header__row {
@@ -255,10 +250,6 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-main {
-  border: solid green;
-}
-
 .benefits {
   padding: 120px 0;
 }
@@ -282,10 +273,6 @@ main {
   line-height: 1.35;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
-}
-
-.apartments {
-  border: solid gold;
 }
 
 .apartments__title {
@@ -353,7 +340,6 @@ main {
 }
 
 .cta {
-  border: solid lightseagreen;
   padding: 180px 0;
   background: linear-gradient(180deg, #242b33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242b33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%), url("../images/cta/cta-bg.jpg") no-repeat;
 }
@@ -428,14 +414,12 @@ main {
 }
 
 .video-section {
-  border: solid salmon;
   padding-bottom: 180px;
 }
 
 .video-sesction__content {
   text-align: center;
   position: relative;
-  border: solid blue;
 }
 
 .video-sesction__content-img {
@@ -452,7 +436,6 @@ main {
 }
 
 .map-section {
-  border: solid red;
   padding-bottom: 180px;
 }
 
@@ -465,7 +448,6 @@ main {
 }
 
 .question {
-  border: solid yellow;
   padding-bottom: 180px;
 }
 
@@ -491,7 +473,6 @@ main {
 
 .footer {
   background-color: #2D343C;
-  border: solid blue;
 }
 
 .footer__wrapper {
@@ -499,11 +480,9 @@ main {
   display: flex;
   -moz-column-gap: 148px;
        column-gap: 148px;
-  border: solid red;
 }
 
 .footer__row {
-  border: solid yellow;
   flex-grow: 1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

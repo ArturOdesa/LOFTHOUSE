@@ -1,21 +1,14 @@
 .footer {
     background-color: $footer-bg;
-    border: solid blue;
 }
 .footer__wrapper {
     padding: 60px 0 50px;
     display: flex;
     column-gap: 148px;
-    border: solid red;
-
 }
 .footer__logo {
 }
 .footer__row {
-    border: solid yellow;
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
     flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,5 +1,4 @@
 .question {
-    border: solid yellow;
     padding-bottom: 180px;
 }
 .question__title {
@@ -15,9 +14,6 @@
 .form {
 }
 .question__form {
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
