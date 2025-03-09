@@ -25,4 +25,23 @@
     gap: 35px 30px;
 }
 
+@include mediaTablet {
+    .cta {
+        padding: 60px 0;
+    }
+    .cta__wrapper {
+        grid-template-columns: 1fr;
+    }
+    .cta__form {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta__title {
+        text-align: center;
+    }   
 
+    .cta__text {
+        text-align: justify;
+        font-size: 14px;    
+    }
+}

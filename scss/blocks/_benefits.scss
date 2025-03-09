@@ -18,3 +18,22 @@
     font-weight: 300;
     font-family: $font-secondary;
 }
+
+@include mediaTablet {
+    .benefits {
+        padding: 60px 0;
+    }
+    .benefits__row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 40px 30px;
+    }
+    .benfeits__item-img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .benefits__item-text {
+        font-size: 16px;
+    }
+}

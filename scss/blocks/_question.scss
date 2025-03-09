@@ -11,12 +11,29 @@
     justify-content: space-between;
     column-gap: 35px;
 }
-.form {
-}
+
 .question__form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     flex-grow: 1;
-    
+}
+
+@include mediaTablet {
+    .question {
+        padding-bottom: 80px;
+    }
+    .question__title {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .question__wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        row-gap: 20px;
+    }
+    .question__form {
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+    }
 }

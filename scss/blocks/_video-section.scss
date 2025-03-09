@@ -18,3 +18,15 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
+@include mediaTablet {
+    .video-section {
+        padding-bottom: 80px;
+    }
+    .video-sesction__content {
+        padding: 0 20px;
+    }
+    .video-sesction__content-icon {
+        width: 80px;
+    }
+}

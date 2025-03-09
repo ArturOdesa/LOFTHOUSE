@@ -5,6 +5,13 @@
     font-size: 18px;
     color: $white;
 
+    @include mediaTablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
     .info--map {
         position: relative;
         padding-left: 43px;
@@ -17,6 +24,10 @@
             left: 0;
             background-image: url('./../images/header/map.svg');
             background-repeat: no-repeat;
+        }
+
+        @include mediaTablet {
+            padding-left: 26px;
         }
     }
 
@@ -35,4 +46,11 @@
         }
     }
 
+}
+
+.info {
+    @include mediaTablet {
+        font-size: 14px;
+
+    }
 }

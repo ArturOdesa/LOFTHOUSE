@@ -40,10 +40,8 @@
 
 }
 
-.test {
-    height: 300px;
-
-    .container {
-        height: 100%;
+@include mediaTablet {
+    .form__privacy--bottom {
+        grid-row: 4;
     }
 }
